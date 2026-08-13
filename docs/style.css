@@ -122,6 +122,16 @@ article.story p {
   color: var(--fg);
 }
 
+article.story p.source {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+article.story p.source a {
+  color: var(--muted);
+}
+
 .post-date {
   color: var(--muted);
   font-size: 0.9rem;
